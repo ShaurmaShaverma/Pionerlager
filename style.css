@@ -1,0 +1,690 @@
+*{padding: 0; margin: 0;}
+/* Главная страница */
+body {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Навигация */
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+    height: 8vh;
+}
+.link {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2%;
+    font-size: 20px;
+    color: white;
+}
+
+/* Основная часть */
+.main-face {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-3cY1BJXreF0W4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-Yi5W1IKMMUyFvIU.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face1 .album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px white;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.main-face1 .album:hover {
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+.main-face2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-AAph1VMa7JBsrFg9.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face2 .album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px white;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.main-face2 .album:hover {
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+.main-face3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-dkuVxDpsFmhx.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face3 .album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px white;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.main-face3 .album:hover {
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+.main-text {
+    color: white;
+    font-size: 36px;
+}
+.album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px red;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.album:hover {
+    background-color: red;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+
+/* Афиша */
+.poster {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+.poster-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.date {
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.chislo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+.mesyac-den-nedeli {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10%;
+    font-size: 25px;
+    color: rgb(110, 110, 110);
+    width: 190px;
+}
+.place {
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-self: center;
+    color: rgb(110, 110, 110);
+}
+.buy-ticket {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: solid 3px white;
+    transition: .5s;
+}
+.buy-ticket:hover {
+    transition: .5s;
+    background-color: white;
+    color: black;
+}
+
+
+/* Магазин */
+.store {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 113vh;
+    color: white;
+}
+.sub-store {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.futbolki {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    cursor: pointer;
+}
+.pluse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    font-size: 40px;
+}
+.store-block {
+    display: none;
+}
+.block {
+    color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plus1 {
+    font-size: 80px;
+}
+hr {
+    width: 100%;
+}
+
+/* .store-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+.futbolki:hover .store-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+}
+
+
+/* Дискография */
+.discography {
+    height: 92vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.discography-line {
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.left-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    width: 50%;
+}
+
+.album_title-date {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album_title {
+    font-size: 25px;
+    color: rgb(172, 172, 172);
+}
+
+.album_date {
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
+
+.more {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: solid 3px white;
+    transition: .5s;
+}
+.more:hover {
+    transition: .5s;
+    background-color: white;
+    color: black;
+}
+
+/* Альбом Хлам */
+.hlam {
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around
+}
+.album1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 600px; */
+}
+.left-part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 10%;
+    height: 160px;
+}
+.album-title {
+    font-size: 40px;
+    color: rgb(146, 146, 146);
+}
+.album-date {
+    font-size: 30px;
+    text-align: start;
+    color: rgb(109, 109, 109);
+}
+.album_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(109, 109, 109);
+    font-size: 20px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.spotify {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+}
+.applemusic {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+}
+
+/* Альбом Правда */
+.pravda {
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around
+}
+.pravda .left-part1 {
+    width: 500px;
+    display: flex;
+    text-align: start;
+}
+
+
+/* Альбом Мало */
+.malo {
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around
+}
+.malo .left-part1  {
+    width: 320px;
+}
+
+/* Офомрление заказа */
+.ordering {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+}
+.ordering-title {
+    color: white;
+    font-size: 40px;
+}
+
+/* Адрес */
+.adres > .title {
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+.adres {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.adres > .place {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+}
+.adres > .place > input {
+    font-size: 20px;
+}
+.region {
+    height: 25px;
+    width: 280px;
+}
+.city {
+    height: 25px;
+    width: 280px;
+}
+.street {
+    height: 25px;
+    width: 200px;
+}
+.home {
+    height: 25px;
+    width: 100px;
+}
+.apartment {
+    height: 25px;
+}
+
+/* Данные покупателя */
+.customer-date > .title {
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+.customer-date {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.customer-date > .place {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+}
+.customer-date > .place > input {
+    font-size: 20px;
+}
+.name {
+    height: 25px;
+    width: 280px;
+}
+.surname {
+    height: 25px;
+    width: 280px;
+}
+.phone {
+    height: 25px;
+    width: 200px;
+}
+
+/* Данные карты */
+.card-date > .title {
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+.card-date {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.card-date > .place {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 150px;
+    align-items: center;
+}
+.card-date > .place > input {
+    font-size: 20px;
+}
+.card-number {
+    height: 25px;
+    width: 600px;
+}
+.owner {
+    height: 25px;
+    width: 280px;
+}
+.validity {
+    height: 25px;
+    width: 280px;
+}
+.cvc {
+    height: 25px;
+    width: 100px;
+}
+
+/* Оформить */
+.ordering > a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 240px;
+    background-color: black;
+    border: solid 3px white;
+    border-radius: 15px;
+    transition: .5s;
+}
+.ordering > a:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    transition: .5s;
+}
+
+
+
+
+/* Слайдер */
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+/* Конкретный слайдер */
+.slider{
+    position: relative;
+}
+.slider .slick-arrow {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+.slider .slick-arrow.slick-prev {
+    background: url(img/arrowleft.png) 0 0 / 100% no-repeat;
+    cursor: pointer;
+    border: 0;
+    left: 0;
+    font-size: 0;
+}
+.slider .slick-arrow.slick-next {
+    background: url(img/arrowright.png) 0 0 / 100% no-repeat;
+    cursor: pointer;
+    border: 0;
+    right: 0;
+    font-size: 0;
+}
+
+
